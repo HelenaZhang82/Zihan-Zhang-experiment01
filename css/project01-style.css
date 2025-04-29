@@ -1,0 +1,140 @@
+h1{
+    margin-left: 110px;
+    color: blue;
+    font-size: 20px;
+}
+
+h2{
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 2.1;
+    font-size: 15px;
+    background-color:rgb(225, 255, 227);
+    border: 2px dotted green;
+    padding: 15px;
+
+}
+
+.img-1{
+    width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img-2{
+    border: 2px solid pink;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 360px;
+
+  
+}
+
+
+.novel-box{
+    display: flex;
+    flex: 50%;
+    background-color: rgb(225, 255, 227);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    line-height: 2.5;
+    border:1px solid green;
+    margin-bottom: 30px;
+}
+
+
+.info-box {
+    flex: 10%;
+    font-size: 14px;
+    line-height: 1.4;
+    background-color: #d0ffd0;
+    padding: 5px;
+    border-left: 2px solid #999;
+  }
+
+p{
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-top: 130px;
+}
+
+p-1{
+    font-weight: bold;
+    padding: 20px;
+}
+
+.body-1{
+    padding-left: 100px;
+    margin-left: 1500px;
+}
+
+.scroll-banner {
+    color: rgb(123, 0, 0);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    font-size: 20px;
+  }
+
+  .highlight {
+    color: rgb(222, 19, 19);
+    font-weight: bold;
+  }
+
+.ads-zjh{
+    position: fixed; 
+  bottom: 0px;   
+  right: 20px;     
+  width: 20vw;
+  height: 200px;
+  padding: 10px;
+  z-index: 999;
+  font-family: sans-serif;
+}
+
+.x-btn {
+    position: absolute;
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /* 每一个x单独设置大小和位置 */
+  .small-x {
+    font-size: 14px;
+    top: 5px;
+    left: 10px;
+  }
+  
+  .medium-x {
+    font-size: 18px;
+    top: 40px;
+    right: 20px;
+  }
+  
+  .big-x {
+    font-size: 30px;
+    bottom: 20px;
+    left: 30px;
+  }
+  
+  .tiny-x {
+    font-size: 10px;
+    top: 10px;
+    right: 80px;
+  }
+  
+  .huge-x {
+    font-size: 40px;
+    bottom: 10px;
+    right: 10px;
+  }
+  
